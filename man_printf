@@ -1,4 +1,4 @@
-.TH _printf 3
+`:.TH _printf 3
 .SH NAME
 _printf - formatted output to stdout
 .SH SYNOPSIS
