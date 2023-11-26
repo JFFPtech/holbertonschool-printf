@@ -11,7 +11,7 @@ int (*get_func(char specifier))(va_list)
 	spec arr[] = {
 		{"c", print_c},
 		{"s", print_s},
-		{"%", print_%},
+		{"%", print_percent},
 		{"d", print_d},
 		{"i", print_i},
 		{NULL, NULL}
