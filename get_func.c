@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * get_func - look for the specifier
- * @x: variable to the function
+ * get_func - fetches the correct function
+ * @x: function variable
  * Return: function
  */
 int (*get_func(char x))(va_list)
