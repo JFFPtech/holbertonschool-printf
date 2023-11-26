@@ -2,7 +2,7 @@
 
 /**
  * get_func - fetches the correct function
- * @x: function variable
+ * @specifier: specifier variable
  * Return: function
  */
 int (*get_func(char specifier))(va_list)
