@@ -7,7 +7,7 @@
  * @args: decimal argument
  * Return: counter
  */
-int printDecimal(va_list args)
+int print_d(va_list args)
 {
 
 	unsigned int absolute, aux, countnum, count;

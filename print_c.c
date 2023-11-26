@@ -7,7 +7,7 @@
  * @args: character argument
  * Return: number of characters
  */
-int printChar(va_list args)
+int print_c(va_list args)
 {
 	int c;
 

@@ -8,7 +8,7 @@
  * Return: return the percent sing
  *
  */
-int printPercent(va_list args)
+int print_percent(va_list args)
 {
 	char *str;
 
