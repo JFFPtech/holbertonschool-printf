@@ -7,9 +7,11 @@
  * @args: string  argument
  * Return: number of characters
  */
+
 int print_s(va_list args)
 {
-	int i, count = 0;
+	int i
+	icount = 0;
 	char *str;
 
 	i = 0;
