@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * get_func - fetches the correct function
+ * get_func - fetches the correct function specifier
  * @specifier: specifier variable
- * Return: function
+ * Return: selected function
  */
+i
 int (*get_func(char specifier))(va_list)
 {
 	int i = 0;
