@@ -5,7 +5,7 @@
  * @specifier: specifier variable
  * Return: selected function
  */
-i
+
 int (*get_func(char specifier))(va_list)
 {
 	int i = 0;

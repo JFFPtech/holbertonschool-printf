@@ -10,9 +10,9 @@
 
 int print_percent(va_list args)
 {
-    (void)args;i
+    (void)args;
 
-    putchar('%');  // Print the percent sign
-    return 1;      // Return the number of characters printed (1)
+    putchar('%');
+    return 1;
 }
 
