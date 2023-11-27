@@ -3,20 +3,16 @@
 #include <stdarg.h>
 
 /**
- * print_percent - pass the percent sing
- * @args: string  argument
- * Return: return the percent sing
- *
+ * print_percent - prints the percent sign
+ * @args: va_list argument (not used in this case)
+ * Return: number of characters printed (always 1 for '%')
  */
+
 int print_percent(va_list args)
 {
-	char *str;
+    (void)args;i
 
-	str = "%";
-	if (va_arg(args, int) == *str)
-	{
-		return (*str);
-	}
-	return (*str);
+    putchar('%');  // Print the percent sign
+    return 1;      // Return the number of characters printed (1)
 }
 
