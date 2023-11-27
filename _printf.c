@@ -1,19 +1,21 @@
+#include "main.h"
 #include <stdarg.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include "main.h"
 #include <stddef.h>
+
 /**
- * _printf - recreates the printf function
- * @format: string with format specifier
+ * _printf - implements the printf function
+ * @format: formatted string
  * Return: number of characters printed
  */
+
 int _printf(const char *format, ...)
 {
 	if (format != NULL)
 	{
 		int count = 0, i;
-		int (*m)(va_list);
+		int (*x)(va_list);
 		va_list args;
 
 		va_start(args, format);
@@ -31,9 +33,9 @@ int _printf(const char *format, ...)
 				}
 				else
 				{
-					m = get_func(format[i + 1]);
-					if (m)
-						count += m(args);
+					x = get_func(format[i + 1]);
+					if (x)
+						count += x(args);
 					else
 						count = _putchar(format[i]) + _putchar(format[i + 1]);
 					i += 2;
