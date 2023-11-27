@@ -23,6 +23,6 @@ char *str;
 		i++;
 		count++;
 	}
-	return count;
+	return (count);
 }
 
