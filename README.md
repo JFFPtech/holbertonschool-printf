@@ -59,5 +59,5 @@ ___
 
 ## Author
 ##### Javier Ferrer
-##### Ricardo Santana
+##### Richard Santana
 
